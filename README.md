@@ -118,25 +118,25 @@ To complete the proposed exercises, it is recommended to use the free educationa
 
   In Python, an **interpreter** is used instead of a compiler. An interpreter executes the code line by line, translating it into machine code at runtime. This is different from a compiler, which translates the entire source code into machine code before execution.
 
-### Compilers vs. Interpreters
+  ### Compilers vs. Interpreters
 
-**Compiler:**
-- **Definition:** A compiler is a program that converts source code written in a programming language into executable code that can be read and executed by the computer.
-- **Pros:**
-  - Faster execution time since the code is already translated into machine code.
-  - Better optimization of the code during the compilation process.
-- **Cons:**
-  - Compilation can be time-consuming, especially for large programs.
-  - Debugging can be more difficult since errors are reported after the entire code is compiled.
+  **Compiler:**
+  - **Definition:** A compiler is a program that converts source code written in a programming language into executable code that can be read and executed by the computer.
+  - **Pros:**
+    - Faster execution time since the code is already translated into machine code.
+    - Better optimization of the code during the compilation process.
+  - **Cons:**
+    - Compilation can be time-consuming, especially for large programs.
+    - Debugging can be more difficult since errors are reported after the entire code is compiled.
 
-**Interpreter:**
-- **Definition:** An interpreter translates and executes code line by line at runtime.
-- **Pros:**
-  - Easier to debug since errors are reported immediately after the line is executed.
-  - No need for a separate compilation step, making development faster and more interactive.
-- **Cons:**
-  - Slower execution time since the code is translated on the fly.
-  - Less optimization compared to compiled code.
+  **Interpreter:**
+  - **Definition:** An interpreter translates and executes code line by line at runtime.
+  - **Pros:**
+    - Easier to debug since errors are reported immediately after the line is executed.
+    - No need for a separate compilation step, making development faster and more interactive.
+  - **Cons:**
+    - Slower execution time since the code is translated on the fly.
+    - Less optimization compared to compiled code.
 
   Python files have the `.py` extension, and you need to have a Python interpreter installed to run them. Unlike C, Python does not compile to `.o` (object) files. Instead, Python code is interpreted at runtime. When you run a Python script, the Python interpreter compiles the code to bytecode, which is then executed by the Python Virtual Machine (PVM). This process is transparent to the user and does not produce .o files.
 
