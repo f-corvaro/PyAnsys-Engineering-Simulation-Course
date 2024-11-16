@@ -215,7 +215,7 @@ To complete the proposed exercises, it is recommended to use the free educationa
   while count < 5:
     print("Count:", count)
     count += 1  # Update the variable to avoid an infinite loop
-    ```
+  ```
 
   </p>
 </details>
