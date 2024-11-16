@@ -1,5 +1,5 @@
 <h1 align="center"><a href="https://github.com/f-corvaro/PyAnsys-Engineering-Simulation-Course">
-	<img src="https://github.com/f-corvaro/PyAnsys-Engineering-Simulation-Course/blob/main/.extra/python-eng.png" alt="CPP">
+	<img src="https://github.com/f-corvaro/PyAnsys-Engineering-Simulation-Course/blob/main/.extra/python-eng.png" alt="Python_and_pyansys">
 </a></h1>
 
 <p align="center">
@@ -97,7 +97,39 @@ To complete the proposed exercises, it is recommended to use the free educationa
   
   The **development environment** is the space where you write the instructions that will be executed by the program. You need to import files and libraries for proper operation. To see results, you have to compile the program and analyze it line by line to check the logic and any errors (breakpoints). Essentially, it is a programmer's note sheet where they will write their algorithm in a programming language. An **Integrated Development Environment (IDE)** is software that provides development tools for coding, testing, and debugging programs. There are many IDEs for various programming languages, such as PyCharm, Visual Studio Code, Sublime Text, and IDLE.
 
-  **Google Colab** is an interactive way of sharing documents with code, graphs, results, text, and other features. It allows the execution of a block of code, and codes can be edited and executed at any time.
+  ### Online vs. Offline IDEs
+
+  **Offline IDEs**:
+  - **PyCharm**: A powerful IDE for Python with features like code completion, debugging, and version control integration.
+  - **Visual Studio Code**: A lightweight but powerful source code editor with support for Python and many other languages, extensions, and debugging tools. (My favorite one).
+  - **Sublime Text**: A sophisticated text editor for code, markup, and prose with a focus on speed and simplicity.
+  - **IDLE**: The default Python IDE that comes with the Python installation, suitable for beginners.
+
+  **Online IDEs**:
+  - **Google Colaboratory**: An interactive way of sharing documents with code, graphs, results, text, and other features. It allows the execution of a block of code, and codes can be edited and executed at any time. It is particularly useful for data science and machine learning projects as it provides free access to GPU and TPU resources. *(This IDE will be used for the course)*.
+  
+  ### Differences between Online and Offline IDEs
+
+  **Offline IDEs**:
+  - **Pros**:
+    - Full control over the development environment and tools.
+    - Better performance and responsiveness.
+    - Access to local files and resources.
+    - More customization options and extensions.
+  - **Cons**:
+    - Requires installation and setup on your local machine.
+    - Limited to the resources available on your local machine.
+
+  **Online IDEs**:
+  - **Pros**:
+    - Accessible from any device with an internet connection.
+    - No installation or setup required.
+    - Easy collaboration and sharing of code.
+    - Access to powerful cloud resources (e.g., GPUs in Google Colab).
+  - **Cons**:
+    - Dependent on internet connectivity.
+    - Potentially slower performance compared to local IDEs.
+    - Limited access to local files and resources.
   
   A **compiler** is a program that converts source code written in a programming language into executable code that can be read and executed by the computer. “Hello World” is a simple example of a program that is used to test a development environment.
 
@@ -254,7 +286,9 @@ To complete the proposed exercises, it is recommended to use the free educationa
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=python" />
+    <img src="https://skillicons.dev/icons?i=python" alt="Python" />
+    <a href="https://www.ansys.com/"><img src="https://github.com/f-corvaro/PyAnsys-Engineering-Simulation-Course/blob/main/.extra/ANSYS_logo.png" alt="Ansys" height="48" />
+    <a href="https://colab.google/"><img src="https://github.com/f-corvaro/PyAnsys-Engineering-Simulation-Course/blob/main/.extra/gcolaboratory_logo.png" alt="Google Colaboratory" height="48" />
   </a>
 </p><br>
 
