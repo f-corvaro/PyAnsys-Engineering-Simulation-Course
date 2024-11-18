@@ -73,6 +73,10 @@ The course covers a wide range of topics, including:
 To complete the proposed exercises, it is recommended to use the free educational license of the Ansys package 
 (Ansys Student). It can be downloaded and installed at any time directly from the Ansys website: [Ansys Student](https://www.ansys.com/academic/students).
 
+During the course, you will be required to use [Google Colab](https://colab.research.google.com/).
+
+Google Colaboratory, or Colab, is a free, cloud-based Jupyter notebook environment that allows you to write and execute Python code in your browser. To get started with Google Colab, you can create a new notebook, write your code, and execute it directly in the browser. 
+
 </p>
 <br>
 
@@ -182,12 +186,24 @@ To complete the proposed exercises, it is recommended to use the free educationa
   ```
 
   ### Variables Types
+
   Python has several types of variables, including integers (`int`), floating-point numbers (`float`), sequences of characters (`string`), booleans (`bool`), lists (`list`), tuples (`tuple`), and dictionaries (`dict`). These variables can be used in a program to store values and perform calculations.
 
   - **Integers (`int`)**: Whole numbers, e.g., `5`, `-3`.
   - **Floating-point numbers (`float`)**: Numbers with a decimal point, e.g., `3.14`, `-0.001`.
   - **Strings (`str`)**: Sequences of characters, e.g., `"Hello, World!"`.
   - **Booleans (`bool`)**: Logical values, `True` or `False`.
+
+  ### Formatted String Literals (f-strings)
+
+  In Python, formatted string literals, also known as f-strings, provide a way to embed expressions inside string literals using curly braces `{}`. This allows you to include the value of variables directly within a string.
+
+  Example:
+  ```python
+  a = 10
+  print(f"The value of a is {a}")
+  ```
+  In this example, the `f` before the string indicates that it is an f-string, and `{a}` is replaced with the value of the variable a when the string is printed.
 
   ### Lists
   A list is an ordered collection of items which can be of different types. Lists are mutable, meaning their elements can be changed.
@@ -249,6 +265,35 @@ To complete the proposed exercises, it is recommended to use the free educationa
     count += 1  # Update the variable to avoid an infinite loop
   ```
 
+  ### Logical Operators
+
+  ### Logical Operators
+
+  <img src="https://github.com/f-corvaro/PyAnsys-Engineering-Simulation-Course/blob/main/.extra/logical.png" alt="Logical Operators">
+
+  Logical operators in Python are used to combine conditional statements. They include `and`, `or`, `not`, `nand`, and `nor`. The `and` operator returns `True` if both operands are true, while the `or` operator returns `True` if at least one operand is true. The `not` operator inverts the truth value of the operand. The `nand` operator returns `True` if at least one operand is false (it is the negation of `and`). The `nor` operator returns `True` if both operands are false (it is the negation of `or`). These operators are essential for constructing complex logical expressions and controlling the flow of a program.
+
+  Examples:
+  ```python
+  x = True
+  y = False
+
+  # and operator
+  print(x and y)  # Output: False
+
+  # or operator
+  print(x or y)  # Output: True
+
+  # not operator
+  print(not x)  # Output: False
+
+  # nand operator (negation of and)
+  print(not (x and y))  # Output: True
+
+  # nor operator (negation of or)
+  print(not (x or y))  # Output: False
+  ```
+
   </p>
 </details>
 
@@ -275,12 +320,14 @@ To complete the proposed exercises, it is recommended to use the free educationa
   This program demonstrates the use of conditional statements in Python. It prompts the user to enter two numbers and then compares them using `if`, `elif`, and `else` statements. Based on the comparison, it prints whether the first number (x) is less than, equal to, or greater than the second number (y).
 
 
-  `ex06_loops`:
+  `ex06_loops.py`:
   The sixth exercise is to use loops in Python. Python supports for and while loops to iterate over sequences and perform repetitive tasks. This exercise helps you understand how to use loops in Python. 
+
+  `ex07_sphere.py`:
+  This script calculates the volume of a sphere based on user input for the radius. It uses a `while` loop to repeatedly prompt the user for a valid radius until a positive number is entered. The script handles invalid inputs gracefully using a `try-except` block to catch `ValueError` exceptions when the user enters non-numeric values.
 
   </p>
 </details>
-
 
 ## Developed Skills
 

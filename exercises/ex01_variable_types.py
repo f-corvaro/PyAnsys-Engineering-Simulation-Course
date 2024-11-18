@@ -17,10 +17,13 @@ d = False
 # Printing the values of the variables
 print()
 print("Integer:", a)
+print(f"Integer printed in second way: {a}")
 print()
 print("Float:", b)
 print()
 print("String:", c)
+print(f"String: {c[3]}")
+print(f"c[1]+c[3]: {c[1]+c[3]}")
 print()
 print("Boolean:", d)
 print()

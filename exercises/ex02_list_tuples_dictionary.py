@@ -9,10 +9,12 @@ print ("List:", e)
 print()
 print ("List element nb.2:", e[2]) # carefull with the index, it starts at 0
 print()
-
 # Changing the value of the list, and printing it
 e[2] = "dog" # changing the value of the list
 print ("List element nb.2 after changing value:", e[2])
+print()
+e.append('cat')# adding a new element to the list
+print(e)
 print()
 
 # Tuples 
@@ -31,6 +33,16 @@ my_dict = {'name': 'Baldassarre', 'age': 33, 'city': 'Monaco'}
 # Printing the dictionary
 print ("Dictionary:", my_dict)
 print()
+print("Dictionary keys:", my_dict.keys())
+print()
+print("Dictionary values:", my_dict.values())
+print()
+
+l=[("HDD", 500), ("RAM", 8), ("CPU", "i7")]
+print(type(l))
+l=dict(l)
+print(type(l))
+print()
 
 # Printing the value of the key 'name'
 print ("Dictionary key 'name':", my_dict['name'])
@@ -40,3 +52,8 @@ print()
 my_dict['name'] = 'Baldassarre Martini'
 print ("Dictionary key 'name' after changing value:", my_dict['name'])
 print()
+
+items={'Computer' : 1250.99, 'HD 8TB' : 350.99, 'Mouse' : 99.99}
+item=input("Price of which item do you want to know? ")
+valore=items[item]
+print(f'Price of {item} is {valore:.2f}€')
