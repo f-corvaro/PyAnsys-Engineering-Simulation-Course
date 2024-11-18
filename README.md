@@ -145,7 +145,7 @@ Google Colaboratory, or Colab, is a free, cloud-based Jupyter notebook environme
 <details>
   <summary><strong>Introduction to Python</strong></summary>
   <p align="justify">
-    
+
   **Python** is a high-level, interpreted programming language developed by Guido van Rossum and first released in 1991. 
   Known for its readability and simplicity, Python has become one of the most popular programming languages in the world. 
   It supports multiple programming paradigms, including procedural, object-oriented, and functional programming. Python's 
@@ -153,6 +153,10 @@ Google Colaboratory, or Colab, is a free, cloud-based Jupyter notebook environme
   as web development, data science, artificial intelligence, and scientific computing.
 
   In Python, an **interpreter** is used instead of a compiler. An interpreter executes the code line by line, translating it into machine code at runtime. This is different from a compiler, which translates the entire source code into machine code before execution.
+
+  ### High-Level and Low-Level Languages
+
+  Machine language consists of binary code (0s and 1s) that is directly executed by a computer's CPU. Assembly language is more readable than machine language and uses mnemonic codes to represent machine-level instructions. High-level languages, such as Python, are closer to human languages and abstract away the complexities of the hardware, making them easier to read, write, and maintain.
 
   ### Compilers vs. Interpreters
 
@@ -296,33 +300,107 @@ Google Colaboratory, or Colab, is a free, cloud-based Jupyter notebook environme
 </details>
 
 <details>
-  <summary><strong>Basic Exercises in Python</strong></summary>
+  <summary><strong>Advanced Python Concepts</strong></summary>
   <p align="justify">
 
-  `ex00_hello_world.py`:
-  The first exercise is to write "Hello, World!" in Python.  To run the program, use the following command in the terminal: `python3 ex00_hello_world.py`. If there are any errors, they will be displayed in the console.
+  ### Functions
 
-  `ex01_variable_types.py`:
-  The second exercise is to declare and use different variable types in Python, including integers, floats, strings, and booleans. This exercise helps you understand how to work with basic data types in Python. 
+  Functions are blocks of code that perform a specific task and can be called at various points in your code. They are useful for encapsulating logic and avoiding repetition. The code inside a function must be indented, and functions are defined using the `def` keyword. The advantage of using functions is that if you need to make changes to the code, you only need to do it once in the function body, rather than every time the function is called. You define a function with `def function_name(parameter_1, parameter_2, ..., parameter_n):`. A function can have one or more parameters, or none at all. Functions are essential for modular programming, allowing you to reuse code by creating libraries, thus avoiding the need to redefine functions repeatedly.
 
-  `ex02_list_tuples_dictionary.py`:
-  The third exercise is to work with lists, tuples, and dictionaries in Python. Lists are ordered collections of items that can be changed, tuples are ordered collections of items that cannot be changed, and dictionaries are collections of key-value pairs. This exercise helps you understand how to use these data structures in Python. 
+  Functions can also return values using the `return` statement, which allows you to capture the output of the function and use it elsewhere in your code. Additionally, functions can have default parameters, which provide default values if no arguments are passed.
 
-  `ex03_mathematical_operations.py`:
-  The fourth exercise is to perform mathematical operations in Python. Python supports standard mathematical operators such as addition, subtraction, multiplication, division, remainder of division, power, and integer division. This exercise helps you understand how to use these operators in Python. Use the `input` function to allow the user to enter values.
-  
-  `ex04_input.py`:
-  This exercise demonstrates how to use the `input` function in Python to get different types of input from the user. The program covers various types of input, including strings, integers, floats, booleans, lists, tuples, and dictionaries. It prompts the user to enter values and then prints the entered values to demonstrate how to handle different types of input in Python.
+  Example:
+  ```python
+  def greet(name):
+      return f"Hello, {name}!"
 
-  `ex05_conditional_statements.py`:
-  This program demonstrates the use of conditional statements in Python. It prompts the user to enter two numbers and then compares them using `if`, `elif`, and `else` statements. Based on the comparison, it prints whether the first number (x) is less than, equal to, or greater than the second number (y).
+  print(greet("Alice"))  # Output: Hello, Alice!
+  ```
+
+  In this example, the greet function takes a single parameter name and returns a greeting message. Functions help in organizing code, making it more readable and maintainable. They also facilitate debugging and testing by isolating specific tasks within the code. 
+
+  It's also a good practice to include a **docstring** at the beginning of a function to describe its purpose, parameters, and return values. This helps in documenting the code and making it easier to understand for others.
+
+  Example:
+  ```python
+  def greet(name="World"):
+    """
+    Returns a greeting message.
+
+    Parameters:
+    name (str): The name to greet. Default is "World".
+
+    Returns:
+    str: A greeting message.
+    """
+    return f"Hello, {name}!"
+  ```
 
 
-  `ex06_loops.py`:
-  The sixth exercise is to use loops in Python. Python supports for and while loops to iterate over sequences and perform repetitive tasks. This exercise helps you understand how to use loops in Python. 
+  ### Libraries
 
-  `ex07_sphere.py`:
-  This script calculates the volume of a sphere based on user input for the radius. It uses a `while` loop to repeatedly prompt the user for a valid radius until a positive number is entered. The script handles invalid inputs gracefully using a `try-except` block to catch `ValueError` exceptions when the user enters non-numeric values.
+  Python libraries are collections of modules that provide additional functionality to your code. For example, the `math` library offers advanced mathematical functions, while the `numpy` library provides tools for working with matrices and arrays. Once you import a library, you can access its functions and features. Other examples of popular libraries include `warnings` for managing warning messages, `pandas` for data manipulation and analysis, `matplotlib.pyplot` for data visualization, and `seaborn` for statistical data visualization. When importing these libraries, it is common to use aliases to simplify their usage in the code. For instance, `import numpy as np`, `import pandas as pd`, `import matplotlib.pyplot as plt`, and `import seaborn as sns`. These aliases make the code more concise and readable.
+
+  To use a library, you often need to install it first using a package manager like `pip`. For example, you can install `numpy` by running `pip install numpy` in your terminal. Other popular libraries include `requests` for making HTTP requests, `scikit-learn` for machine learning, and `tensorflow` for deep learning. Libraries greatly enhance the capabilities of Python and allow you to perform complex tasks with minimal code.
+
+  It's important to keep your libraries up to date to benefit from the latest features and security updates. You can check if a library is up to date and update it using `pip`. For example, to check for updates and update `numpy`, you can run:
+  ```sh
+  pip install --upgrade numpy
+  ```
+
+  For more information about a library, including usage examples and detailed documentation, you should refer to the official documentation. Official documentation is usually available on the library's website or its repository on platforms like GitHub. This is the best source for accurate and comprehensive information about the library's features and usage.
+ 
+  ### Object-Oriented Programming (OOP)
+
+  Object-Oriented Programming (OOP) is a programming paradigm that organizes code into objects, which combine data and related functionality into a single structure. A class is a general definition of an object, while an object is a specific instance of a class. For example, a `Car` class might define the common characteristics of all cars (model, year, make, and value), whereas `my_car` would be a specific instance of that class. 
+
+  Example:
+```python
+class Car:
+    def __init__(self, model, year, make, value):
+        self.model = model
+        self.year = year
+        self.make = make
+        self.value = value
+
+    def description(self):
+        return f"{self.year} {self.make} {self.model} valued at {self.value}"
+```
+
+  The `self` keyword is used in class methods to refer to the instance of the class. The `__init__` method in Python is a special method that is called when an instance (object) of a class is created. It is known as the constructor method. The purpose of the `__init__` method is to initialize the object's attributes with the values provided when the object is instantiated. An istance for this example could be:
+
+  ```python
+  # Creating an instance of the Car class
+  my_car = Car("Corolla", 2020, "Toyota", 20000)
+  print(my_car.description())  # Output: 2020 Toyota Corolla valued at 20000
+  ```
+
+  Another example of a class is Person, where we have attributes like name and age, and a method called introduce that prints a message with the person's name and age. Finally, we create an object of the Person class called `person1` with specific name and age values.
+
+  Example:
+  ```python
+  class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def introduce(self):
+        return f"My name is {self.name} and I am {self.age} years old."
+
+  person1 = Person("Alex", 30)
+  print(person1.introduce())  # Output: My name is Alex and I am 30 years old.
+  ```
+
+  The advantages of this type of programming include modularity, code reuse, and easier maintenance. By encapsulating data and functionality within objects, OOP allows for more organized and manageable code, making it easier to develop and maintain complex software systems.
+ 
+  </p>
+</details>
+
+<details>
+  <summary><strong>Exercises in Python</strong></summary>
+  <p align="justify">
+
+  In the `./exercises/` folder, you will find numerous exercises and examples that illustrate the theoretical concepts discussed.
 
   </p>
 </details>

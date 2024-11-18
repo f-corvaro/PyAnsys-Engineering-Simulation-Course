@@ -1,3 +1,5 @@
+# This program is to demonstrate the use of conditional statements in Python
+
 x = float(input("Enter a number, x: "))
 y = float(input("Enter a number, y: "))
 
@@ -8,4 +10,4 @@ elif x == y:
 else:
     print("x:", x, " is greater than y:", y)
 
-print(x==y)
+print("x is equal to y?", x==y)

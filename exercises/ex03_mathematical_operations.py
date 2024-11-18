@@ -4,12 +4,8 @@
 a = float(input("Enter a number, a: "))
 b = float(input("Enter a number, b: "))
 
-# Print a blank line for better readability
-print()
-
 # Print the header for the operations section
 print("OPERATIONS")
-print()
 
 # Perform and print the result of addition
 print("a + b =", a + b)
@@ -37,4 +33,3 @@ print()
 
 # Perform and print the result of integer division
 print("a // b =", a // b)
-print()
