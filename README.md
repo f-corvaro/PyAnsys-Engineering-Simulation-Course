@@ -341,14 +341,38 @@ Google Colaboratory, or Colab, is a free, cloud-based Jupyter notebook environme
 
   Python libraries are collections of modules that provide additional functionality to your code. For example, the `math` library offers advanced mathematical functions, while the `numpy` library provides tools for working with matrices and arrays. Once you import a library, you can access its functions and features. Other examples of popular libraries include `warnings` for managing warning messages, `pandas` for data manipulation and analysis, `matplotlib.pyplot` for data visualization, and `seaborn` for statistical data visualization. When importing these libraries, it is common to use aliases to simplify their usage in the code. For instance, `import numpy as np`, `import pandas as pd`, `import matplotlib.pyplot as plt`, and `import seaborn as sns`. These aliases make the code more concise and readable.
 
-  To use a library, you often need to install it first using a package manager like `pip`. For example, you can install `numpy` by running `pip install numpy` in your terminal. Other popular libraries include `requests` for making HTTP requests, `scikit-learn` for machine learning, and `tensorflow` for deep learning. Libraries greatly enhance the capabilities of Python and allow you to perform complex tasks with minimal code.
+  To use a library, you often need to install it first using a package manager like `pip3`. For example, you can install `numpy` by running `pip3 install numpy` in your terminal. Other popular libraries include `requests` for making HTTP requests, `scikit-learn` for machine learning, and `tensorflow` for deep learning. Libraries greatly enhance the capabilities of Python and allow you to perform complex tasks with minimal code.
 
-  It's important to keep your libraries up to date to benefit from the latest features and security updates. You can check if a library is up to date and update it using `pip`. For example, to check for updates and update `numpy`, you can run:
+  It's important to keep your libraries up to date to benefit from the latest features and security updates. You can check if a library is up to date and update it using `pip3`. For example, to check for updates and update `numpy`, you can run:
   ```sh
-  pip install --upgrade numpy
+  pip3 install --upgrade numpy
   ```
 
   For more information about a library, including usage examples and detailed documentation, you should refer to the official documentation. Official documentation is usually available on the library's website or its repository on platforms like GitHub. This is the best source for accurate and comprehensive information about the library's features and usage.
+
+  To manage your project dependencies effectively, it is recommended to use a virtual environment (venv). A virtual environment is an isolated environment that allows you to manage dependencies for your Python projects separately. Here are the steps to create and use a virtual environment:
+
+  1. Create a Virtual Environment:
+    ```sh
+    python3 -m venv venv
+    ```
+  2. Activate the venv:
+    Linux: 
+      ```sh
+      source venv/bin/activate
+      ```
+    Windows: 
+      ```sh
+      .\venv\Scripts\activate
+      ```
+  3. Install Packages In The venv:
+    ```sh
+    pip3 install numpy
+    ```
+  4. **Deactivate the Virtual Environment** when you have finished working:
+   ```sh
+   deactivate
+   ```
  
   ### Object-Oriented Programming (OOP)
 
