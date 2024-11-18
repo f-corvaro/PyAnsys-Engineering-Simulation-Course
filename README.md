@@ -267,8 +267,6 @@ Google Colaboratory, or Colab, is a free, cloud-based Jupyter notebook environme
 
   ### Logical Operators
 
-  ### Logical Operators
-
   <img src="https://github.com/f-corvaro/PyAnsys-Engineering-Simulation-Course/blob/main/.extra/logical.png" alt="Logical Operators">
 
   Logical operators in Python are used to combine conditional statements. They include `and`, `or`, `not`, `nand`, and `nor`. The `and` operator returns `True` if both operands are true, while the `or` operator returns `True` if at least one operand is true. The `not` operator inverts the truth value of the operand. The `nand` operator returns `True` if at least one operand is false (it is the negation of `and`). The `nor` operator returns `True` if both operands are false (it is the negation of `or`). These operators are essential for constructing complex logical expressions and controlling the flow of a program.
