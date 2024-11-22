@@ -262,10 +262,13 @@ The use of these libraries will be explained in the theory section of this READM
   - `>` (greater than)
   - `<=` (less than or equal to)
   - `>=` (greater than or equal to)
+
   The code that should be executed if a certain condition is met must be indented.
 
   ### Loops
-  Loops in Python allow you to execute a block of code multiple times by iterating over a sequence of values. This concept is used when you need to repeat a specific action for a certain number of times or while a condition is true. Using loops can significantly reduce the amount of code you need to write, thereby reducing the computational cost of the algorithm.
+  Loops in Python allow you to execute a block of code multiple times by iterating over a sequence of values. 
+  This concept is used when you need to repeat a specific action for a certain number of times or while a condition is `true`. 
+  Using loops can significantly reduce the amount of code you need to write, thereby reducing the computational cost of the algorithm.
 
   - `For` Loops: The for loop is used to iterate over a sequence (such as a list, tuple, dictionary, set, or string) and execute a block of code for each item in the sequence. This is useful when you know in advance how many times you need to execute the block of code.
   Example:
@@ -273,7 +276,8 @@ The use of these libraries will be explained in the theory section of this READM
   for i in range(5):
     print("Iteration:", i)
   ```
-  - `While` Loops: The while loop is used to execute a block of code as long as a certain condition is true. The programmer must ensure that the condition eventually becomes false; otherwise, the loop will run indefinitely, resulting in an infinite loop.
+  - `While` Loops: The while loop is used to execute a block of code as long as a certain condition is `true`. 
+  The programmer must ensure that the condition eventually becomes `false`; otherwise, the loop will run indefinitely, resulting in an infinite loop.
   Example:
   ```python
   count = 0
@@ -308,6 +312,15 @@ The use of these libraries will be explained in the theory section of this READM
   # nor operator (negation of or)
   print(not (x or y))  # Output: False
   ```
+
+  ### Try/Except
+
+  The `try/except` block in Python is used for handling exceptions and errors that may occur during the execution of a program. 
+  By wrapping code that might raise an exception within a `try` block, you can catch and handle specific exceptions using one or more 
+  `except` blocks. This prevents the program from crashing and allows you to provide meaningful error messages or alternative actions. 
+  For example, you can handle file I/O errors, divide-by-zero errors, or any other runtime errors gracefully. Additionally, you can use 
+  the `else` block to execute code if no exceptions were raised and the `finally` block to execute code that should run regardless of 
+  whether an exception occurred or not, such as closing a file or releasing resources.
 
   </p>
 </details>
