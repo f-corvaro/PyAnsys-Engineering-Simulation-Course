@@ -196,11 +196,12 @@ The use of these libraries will be explained in the theory section of this READM
 
   ### Comments
   In Python, comments are written with the `#` symbol. Comments are used to explain the code and make it more readable for humans. The computer ignores comments during execution.
-    Example:
-    ```python
-    # This is a single-line comment
-    print("Hello, World!")  # This comment explains the print statement
-    ```
+  
+  Example:
+  ```python
+  # This is a single-line comment
+  print("Hello, World!")  # This comment explains the print statement
+  ```
 
   ### Variables Types
 
@@ -211,27 +212,26 @@ The use of these libraries will be explained in the theory section of this READM
   - **Strings (`str`)**: Sequences of characters, e.g., `"Hello, World!"`.
   - **Booleans (`bool`)**: Logical values, `True` or `False`.
 
-  ### Formatted String Literals (f-strings)
-
-  In Python, formatted string literals, also known as f-strings, provide a way to embed expressions inside string literals using curly braces `{}`. This allows you to include the value of variables directly within a string.
+  **Formatted String Literals (f-strings)**: In Python, formatted string literals, also known as f-strings, provide a way to embed expressions 
+  inside string literals using curly braces `{}`. This allows you to include the value of variables directly within a string.
 
   Example:
   ```python
   a = 10
   print(f"The value of a is {a}")
   ```
-  In this example, the `f` before the string indicates that it is an f-string, and `{a}` is replaced with the value of the variable a when the string is printed.
+  In this example, the `f` before the string indicates that it is an f-string, and `{a}` is replaced with the value of the variable 
+  a when the string is printed.
 
-  ### Lists
-  A list is an ordered collection of items which can be of different types. Lists are mutable, meaning their elements can be changed.
+  **Lists:** A list is an ordered collection of items which can be of different types. Lists are mutable, meaning their elements 
+  can be changed.
 
   Example:
   ```python
   my_list = [1, 2, 3, "apple", 4.5]
   print(my_list[3])  # Output: apple
   ```
-  ### Tuples
-  A tuple is similar to a list, but it is immutable, meaning its elements cannot be changed after creation.
+  **Tuples:** A tuple is similar to a list, but it is immutable, meaning its elements cannot be changed after creation.
 
   Example:
   ```python
@@ -239,8 +239,8 @@ The use of these libraries will be explained in the theory section of this READM
   print(my_tuple[3])  # Output: apple
   ```
 
-  ### Dictionaries
-  A dictionary is an unordered collection of key-value pairs. Each key is unique and is used to access its corresponding value.
+  **Dictionaries:** A dictionary is an unordered collection of key-value pairs. Each key is unique and is used to access its 
+  corresponding value.
 
   Example:
   ```python
