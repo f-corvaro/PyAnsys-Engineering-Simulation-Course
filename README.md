@@ -486,7 +486,7 @@ class Car:
   - ***Identification of missing values:*** Missing values are identified and decisions are made on how to handle them (removal, imputation, etc.).
   - ***Data quality check:*** Errors or inconsistencies in the data are verified.
 
-  Bivariate analysis, on the other hand, is a specific type of exploratory analysis that focuses on studying the relationship between two variables. The goal is to understand if there is a connection between these two variables and, if so, what type it is (linear, non-linear, positive, negative).
+  **Bivariate analysis**, on the other hand, is a specific type of exploratory analysis that focuses on studying the relationship between two variables. The goal is to understand if there is a connection between these two variables and, if so, what type it is (linear, non-linear, positive, negative).
 
   ### Difference Between Data-Driven and Data Science
 
@@ -526,7 +526,7 @@ class Car:
   - Do the data have any biases?
   - Is the sampling frequency adequate?
 
-  To address the issue of sampling frequency, we can refer to the **Nyquist Theorem**. The theorem states that the sampling frequency must be at least twice the highest frequency component present in the measured signal to accurately reconstruct the original signal. For example, if the highest frequency in the signal is 1 kHz, the sampling frequency should be at least 2 kHz.
+  To address the issue of sampling frequency, we can refer to the **Nyquist Theorem**. ***The theorem states that the sampling frequency must be at least twice the highest frequency component present in the measured signal to accurately reconstruct the original signal.*** For example, if the highest frequency in the signal is 1 kHz, the sampling frequency should be at least 2 kHz.
 
   Additionally, data quality can be assessed through:
   - **Data Completeness**: Ensuring that all necessary data points are collected and no critical information is missing.
