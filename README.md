@@ -623,6 +623,7 @@ class Car:
   - Data Analysis: Variables are analyzed to extract meaningful insights. This includes calculating statistics, identifying patterns, and detecting anomalies.
   - Data Visualization: Variables are visualized using plots and charts to better understand the data distribution and relationships between variables.
   - Data Cleaning: Variables are cleaned to handle missing values, correct data types, and remove inconsistencies.
+  
   Understanding the types of variables in a dataframe is crucial for selecting appropriate statistical methods and accurately interpreting data in various analyses.
 
   </p>
