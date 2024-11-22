@@ -481,10 +481,10 @@ class Car:
   The process flow diagram of a data science project involves an iterative flow, which may require multiple cycles to refine a strategy. Therefore, the steps include defining the problem, finding a way to collect and process data (requiring a format to analyze large amounts of data), analyzing it from an exploratory and bivariate perspective, verifying that the initial hypotheses are correct, conducting a critical analysis, and making a decision. 
   
   **Exploratory Data Analysis (EDA)** is the first crucial phase in analyzing a dataset. The goal is to gain a general understanding of the data, identify patterns, anomalies, and key characteristics that could influence subsequent analyses. EDA is performed using:
-  - Visualization: Graphs and charts are used to visualize the distribution of variables, relationships between them, and to identify any outliers.
-  - Descriptive statistics: Means, standard deviations and other statistics are calculated to describe the main characteristics of the dataset.
-  - Identification of missing values: Missing values are identified and decisions are made on how to handle them (removal, imputation, etc.).
-  - Data quality check: Errors or inconsistencies in the data are verified.
+  - ***Visualization:*** Graphs and charts are used to visualize the distribution of variables, relationships between them, and to identify any outliers.
+  - ***Descriptive statistics:*** Means, standard deviations and other statistics are calculated to describe the main characteristics of the dataset.
+  - ***Identification of missing values:*** Missing values are identified and decisions are made on how to handle them (removal, imputation, etc.).
+  - ***Data quality check:*** Errors or inconsistencies in the data are verified.
 
   Bivariate analysis, on the other hand, is a specific type of exploratory analysis that focuses on studying the relationship between two variables. The goal is to understand if there is a connection between these two variables and, if so, what type it is (linear, non-linear, positive, negative).
 
