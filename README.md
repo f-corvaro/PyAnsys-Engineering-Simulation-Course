@@ -639,6 +639,8 @@ This workshop involves the creation of a DataFrame and covers essential topics s
 
 You can find the workshop materials in the following folder: [./workshop_1](https://github.com/f-corvaro/PyAnsys-Engineering-Simulation-Course/tree/main/workshop_1).
 
+If you encounter issues with libraries, remember to activate the virtual environment using `source venv/bin/activate`. Additionally, you may need to install `tkinter` for Matplotlib plotting by running `sudo apt-get install python3-tk`.
+
 </p>
 
 
