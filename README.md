@@ -111,11 +111,25 @@ The use of these libraries will be explained in the theory section of this READM
   
   A **programming language** is a set of rules used to write programs that can be executed by a computer. High-level languages, such as Python, are written by programmers and then compiled or interpreted into low-level machine code that can be executed by the computer's microprocessor. 
 
-  An **algorithm** is a finite sequence of well-defined instructions used to solve a specific problem. In computer science, algorithms are implemented using programming languages and must be designed to achieve a particular goal. Effective problem-solving involves breaking down complex problems into smaller, manageable parts and solving them step by step. Clear and unambiguous communication is essential for writing efficient and maintainable code.
-  
-  The **development environment** is the space where you write the instructions that will be executed by the program. You need to import files and libraries for proper operation. To see results, you have to compile the program and analyze it line by line to check the logic and any errors (breakpoints). Essentially, it is a programmer's note sheet where they will write their algorithm in a programming language. An **Integrated Development Environment (IDE)** is software that provides development tools for coding, testing, and debugging programs. There are many IDEs for various programming languages, such as PyCharm, Visual Studio Code, Sublime Text, and IDLE.
+<p align="justify">
 
-  ### Online vs. Offline IDEs
+  An **algorithm** is a finite sequence of well-defined instructions used to solve a specific problem. In computer science, algorithms are implemented using programming languages and must be designed to achieve a particular goal. Effective problem-solving involves breaking down complex problems into smaller, manageable parts and solving them step by step. Clear and unambiguous communication is essential for writing efficient and maintainable code.
+
+<p align="justify">
+
+  A **compiler** is a program that converts source code written in a programming language into executable code that can be read and executed by the computer. “Hello World” is a simple example of a program that is used to test a development environment.
+
+<p align="justify">
+
+  **Variables** are spaces in computer memory used to store values. 
+
+<p align="justify">
+
+  The **development environment** is the space where you write the instructions that will be executed by the program. You need to import files and libraries for proper operation. To see results, you have to compile the program and analyze it line by line to check the logic and any errors (breakpoints). Essentially, it is a programmer's note sheet where they will write their algorithm in a programming language. 
+
+<p align="justify">
+
+  An **Integrated Development Environment (IDE)** is software that provides development tools for coding, testing, and debugging programs. There are many IDEs for various programming languages, such as PyCharm, Visual Studio Code, Sublime Text, and IDLE.
 
   **Offline IDEs**:
   - **PyCharm**: A powerful IDE for Python with features like code completion, debugging, and version control integration.
@@ -148,10 +162,6 @@ The use of these libraries will be explained in the theory section of this READM
     - Dependent on internet connectivity.
     - Potentially slower performance compared to local IDEs.
     - Limited access to local files and resources.
-  
-  A **compiler** is a program that converts source code written in a programming language into executable code that can be read and executed by the computer. “Hello World” is a simple example of a program that is used to test a development environment.
-
-  **Variables** are spaces in computer memory used to store values. 
 
   </p>
 </details>
