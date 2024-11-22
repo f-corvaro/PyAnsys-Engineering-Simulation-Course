@@ -29,15 +29,16 @@ Thank you for your interest! I am currently working hard to bring you exciting u
 
 <p align="justify">
 
-I am grateful for the opportunity provided by iESSS to explore both new and established concepts in programming and 
-engineering. The Python for Engineers course is designed for individuals looking to enhance their programming skills 
+I am grateful for the opportunity provided by iESSS to explore engineering concepts studied during my university courses in 
+conjunction with programming concepts, allowing me to understand the connection between these two fields. The Python for Engineers 
+course is designed for individuals looking to enhance their programming skills 
 and leverage powerful simulation tools. This course covers the fundamentals of Python programming as well as advanced 
 techniques in data management, result visualization, and simulation process automation. With the increasing demand for 
 efficient and precise engineering solutions, integrating Python with the Ansys platform offers a robust toolset for 
 optimizing simulation processes.
 
-This repository contains the materials and projects I will study and complete throughout this course. I hope this 
-work will be useful to others as well.
+This repository contains all the theory and code I developed during this course, including additional code created for fun and to explore 
+new or old concepts. I hope this work will be useful to others as well.
 
 </p>
 <br>
