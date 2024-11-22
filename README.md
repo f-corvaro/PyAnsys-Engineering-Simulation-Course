@@ -74,9 +74,22 @@ The course covers a wide range of topics, including:
 To complete the proposed exercises, it is recommended to use the free educational license of the Ansys package 
 (Ansys Student). It can be downloaded and installed at any time directly from the Ansys website: [Ansys Student](https://www.ansys.com/academic/students).
 
-During the course, you will be required to use [Google Colab](https://colab.research.google.com/).
+During the course, you will be required to use [Google Colab](https://colab.research.google.com/). Google Colaboratory, or Colab, is a free, 
+cloud-based Jupyter notebook environment that allows you to write and execute Python code in your browser. 
 
-Google Colaboratory, or Colab, is a free, cloud-based Jupyter notebook environment that allows you to write and execute Python code in your browser. To get started with Google Colab, you can create a new notebook, write your code, and execute it directly in the browser. 
+The course requires the use of several Python libraries. Below is a list of these libraries along with their descriptions and links to their 
+respective pages:
+
+- [numpy](https://numpy.org/): NumPy is an open-source library for numerical computing in Python. It provides support for arrays, matrices, 
+  and many mathematical functions to operate on these data structures. [GitHub page](https://github.com/numpy/numpy?tab=readme-ov-file).
+- [pandas](https://pandas.pydata.org/): Pandas is an open-source data manipulation and analysis library. It offers data structures like 
+  DataFrames and Series, which are essential for handling structured data. [GitHub page](https://github.com/pandas-dev/pandas).
+- [matplotlib](https://matplotlib.org/): Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations 
+  in Python. It is widely used for plotting graphs and charts. [GitHub page](https://github.com/matplotlib/matplotlib).
+- [seaborn](https://seaborn.pydata.org/): Seaborn is a statistical data visualization library based on Matplotlib. It provides a high-level 
+  interface for drawing attractive and informative statistical graphics. [GitHub page](https://github.com/mwaskom/seaborn).
+
+The use of these libraries will be explained in the theory section of this README.
 
 </p>
 <br>
