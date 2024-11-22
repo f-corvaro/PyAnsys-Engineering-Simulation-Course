@@ -461,7 +461,7 @@ class Car:
   <summary><strong>Exercises in Python</strong></summary>
   <p align="justify">
 
-  In the `./exercises/` folder, you will find numerous exercises and examples that illustrate the theoretical concepts discussed.
+  In the [`./exercises/`](https://github.com/f-corvaro/PyAnsys-Engineering-Simulation-Course/tree/main/exercises) folder, you will find numerous exercises and examples that illustrate the theoretical concepts discussed.
 
   </p>
 </details>
@@ -628,6 +628,19 @@ class Car:
 
   </p>
 </details>
+
+## Workshop
+
+### Workshop 1
+
+<p align="justify">
+
+This workshop involves the creation of a DataFrame and covers essential topics such as exploratory data analysis, data manipulation, and data visualization. These are the basic concepts necessary when working with data frameworks.
+
+You can find the workshop materials in the following folder: [./workshop_1](https://github.com/f-corvaro/PyAnsys-Engineering-Simulation-Course/tree/main/workshop_1).
+
+</p>
+
 
 ## Developed Skills
 
